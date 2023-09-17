@@ -6,6 +6,7 @@ console.log(galleryItems);
 
 import SimpleLightbox from "simplelightbox";
 import "simplelightbox/dist/simple-lightbox.min.css";
+import { galleryItems } from './gallery-items';
 
 const galleryList = document.querySelector('.gallery');
 const galleryFun = createImg(galleryItems);
